@@ -12,6 +12,7 @@
 
 **notes**:
 * **Quiz transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-quizzes => no fix, see below)
+* **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
 * add script help text is wrong
 * navigation is not aware of unset parameters
 * no info text for missing video
@@ -33,10 +34,10 @@
 | | Internet Architecture ||| Yes | No | no template | custom block navigation |
 | || Ethernet || Yes | No | no template ||
 | ||| COASM    | Yes | Yes | previous | OGV |
-| ||| EH       | Yes | No | script | WEBM |
-| ||| MPLvsMCL | Yes | No | script | WEBM |
-| ||| CD       | Yes | No | script | OGV |
-| ||| SFH      | Yes | No | video, script, next | |
+| ||| EH       | Yes | Yes | script | WEBM |
+| ||| MPLvsMCL | Yes | Yes | script | WEBM |
+| ||| CD       | Yes | Yes | script | OGV |
+| ||| SFH      | Yes | Yes | video, script, next | |
 | || Internet Protocol || Yes | No | no template ||
 | ||| MFIP     | Yes | No | script, previous | WEBM |
 | ||| CIPv4N   | Yes | No | script | WEBM |
