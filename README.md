@@ -11,6 +11,7 @@
 * next (URL)
 
 **notes**:
+* **template not moved yet**
 * **Quiz transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-quizzes => no fix, see below)
 * **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
 * add script help text is wrong
@@ -20,11 +21,14 @@
 * LUA: relative URLs? (relative to context=template-using page, such as /Quiz)
 
 ## Block (no template)
-* custom block navigation
 * no lesson navigation
+* custom block navigation
 
 ## Lesson (no template)
+* **category** not changed yet to have all in same category => fix after move completed
 * no lesson navigation
+* table with learning units (transcluded by learning units)
+* lesson video
 
 # Moved sites
 **All URLs corrected** implies quiz is moved.
@@ -32,15 +36,15 @@
 | Part | Block | Lesson | Learning Unit | Moved | All URLs corrected | missing parameters | notes |
 | :--: | :---: | :----: | :-----------: | :---: | :----------------: | :----------------: | :---: |
 | | Internet Architecture ||| Yes | No | no template | custom block navigation |
-| || Ethernet || Yes | No | no template ||
+| || Ethernet || Yes | Yes | no template ||
 | ||| COASM    | Yes | Yes | previous | OGV |
 | ||| EH       | Yes | Yes | script | WEBM |
 | ||| MPLvsMCL | Yes | Yes | script | WEBM |
 | ||| CD       | Yes | Yes | script | OGV |
 | ||| SFH      | Yes | Yes | video, script, next | |
-| || Internet Protocol || Yes | No | no template ||
-| ||| MFIP     | Yes | No | script, previous | WEBM |
-| ||| CIPv4N   | Yes | No | script | WEBM |
-| ||| IPFA     | Yes | No | script | WEBM |
-| ||| IPH      | Yes | No | script | WEBM |
-| ||| SFH      | Yes | No | video, script, next | |
+| || Internet Protocol || Yes | Yes | no template | current discussions link (page bottom) |
+| ||| MFIP     | Yes | Yes | script, previous | WEBM |
+| ||| CIPv4N   | Yes | Yes | script | WEBM |
+| ||| IPFA     | Yes | Yes | script | WEBM |
+| ||| IPH      | Yes | Yes | script | WEBM |
+| ||| SFH      | Yes | Yes | video, script, next | |
