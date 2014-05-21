@@ -11,7 +11,7 @@
 * next (URL)
 
 **notes**:
-* Quiz transclusion fails due to missing namespace
+* **Quiz transclusion fails due to missing namespace**
 * add script help text is wrong
 * navigation is not aware of unset parameters
 * no info text for missing video
@@ -32,7 +32,7 @@
 | :--: | :---: | :----: | :-----------: | :---: | :----------------: | :----------------: | :---: |
 | | Internet Architecture ||| Yes | No | no template | custom block navigation |
 | || Ethernet || Yes | No | no template ||
-| ||| COASM    | Yes | No | previous | OGV |
+| ||| COASM    | Yes | Yes | previous | OGV |
 | ||| EH       | Yes | No | script | WEBM |
 | ||| MPLvsMCL | Yes | No | script | WEBM |
 | ||| CD       | Yes | No | script | OGV |
