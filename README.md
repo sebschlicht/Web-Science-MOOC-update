@@ -11,7 +11,7 @@
 * next (URL)
 
 **notes**:
-* **Quiz transclusion fails due to missing namespace**
+* **Quiz transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-quizzes => no fix, see below)
 * add script help text is wrong
 * navigation is not aware of unset parameters
 * no info text for missing video
