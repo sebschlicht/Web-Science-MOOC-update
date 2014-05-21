@@ -35,7 +35,7 @@
 
 | Part | Block | Lesson | Learning Unit | Moved | All URLs corrected | missing parameters | notes |
 | :--: | :---: | :----: | :-----------: | :---: | :----------------: | :----------------: | :---: |
-| | Internet Architecture ||| Yes | No | no template | custom block navigation |
+| | Internet Architecture ||| Yes | Yes | no template | custom block navigation |
 | || Ethernet || Yes | Yes | no template ||
 | ||| COASM    | Yes | Yes | previous | OGV |
 | ||| EH       | Yes | Yes | script | WEBM |
@@ -48,3 +48,4 @@
 | ||| IPFA     | Yes | Yes | script | WEBM |
 | ||| IPH      | Yes | Yes | script | WEBM |
 | ||| SFH      | Yes | Yes | video, script, next | |
+| | Web Architecture ||| Yes | No | no template | **no children** |
