@@ -61,7 +61,7 @@
 | ||| RsfaDNS | Yes | Yes | script | WEBM |
 | ||| DDNSQ | Yes | Yes | script | WEBM |
 | ||| DNSAR | Yes | Yes | script | WEBM "DNS address resolution" -> "DNS Address Resolution" |
-| ||| SFH | Yes | Yes | script, quiz, next | WEBM, /table **transclusion fails** |
+| ||| SFH | Yes | Yes | script, quiz, next | WEBM, /table |
 | | Internet vs. world wide web ||| Yes | No | no template | |
 | | Web Architecture ||| Yes | No | no template | |
 | || Hypertext Transfer Protocol || Yes | Yes | | "Hypertext transfer protocol" -> "Hypertext Transfer Protocol" |
