@@ -35,7 +35,7 @@
 
 | Part | Block | Lesson | Learning Unit | Moved | All URLs corrected | missing parameters | notes |
 | :--: | :---: | :----: | :-----------: | :---: | :----------------: | :----------------: | :---: |
-| | Internet Architecture ||| Yes | Yes | no template | custom block navigation |
+| | Internet Architecture ||| Yes | Yes | no template | |
 | || Ethernet || Yes | Yes | no template ||
 | ||| COASM    | Yes | Yes | previous | OGV |
 | ||| EH       | Yes | Yes | script | WEBM |
@@ -62,4 +62,12 @@
 | ||| DDNSQ | Yes | Yes | script | WEBM |
 | ||| DNSAR | Yes | Yes | script | WEBM "DNS address resolution" -> "DNS Address Resolution" |
 | ||| SFH | Yes | Yes | script, quiz, next | WEBM, /table **transclusion fails** |
-| | Web Architecture ||| Yes | No | no template | **no children** |
+| | Internet vs. world wide web ||| Yes | No | no template | |
+| | Web Architecture ||| Yes | No | no template | |
+| || Hypertext Transfer Protocol || Yes | No | | "Hypertext transfer protocol" -> "Hypertext Transfer Protocol" |
+| ||| MHTTPr | Yes | No | previous | WEBM |
+| ||| ASWC | Yes | No | | WEBM |
+| ||| ASWS | Yes | No | | WEBM |
+| ||| THTTPH | Yes | No | script | WEBM |
+| ||| Cn | Yes | No | | WEBM |
+| ||| SFH | Yes | No | script, next | WEBM script headine in further readings |
