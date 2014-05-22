@@ -64,10 +64,10 @@
 | ||| SFH | Yes | Yes | script, quiz, next | WEBM, /table **transclusion fails** |
 | | Internet vs. world wide web ||| Yes | No | no template | |
 | | Web Architecture ||| Yes | No | no template | |
-| || Hypertext Transfer Protocol || Yes | No | | "Hypertext transfer protocol" -> "Hypertext Transfer Protocol" |
-| ||| MHTTPr | Yes | No | previous | WEBM |
-| ||| ASWC | Yes | No | | WEBM |
-| ||| ASWS | Yes | No | | WEBM |
-| ||| THTTPH | Yes | No | script | WEBM |
-| ||| Cn | Yes | No | | WEBM |
-| ||| SFH | Yes | No | script, next | WEBM script headine in further readings |
+| || Hypertext Transfer Protocol || Yes | Yes | | "Hypertext transfer protocol" -> "Hypertext Transfer Protocol" |
+| ||| MHTTPr | Yes | Yes | previous | WEBM |
+| ||| ASWC | Yes | Yes | | WEBM title diff |
+| ||| ASWS | Yes | Yes | quiz | WEBM empty quiz @ [...]Simiple[...]/Quiz; large script |
+| ||| THTTPH | Yes | Yes | script | WEBM |
+| ||| Cn | Yes | Yes | | WEBM |
+| ||| SFH | Yes | Yes | script, next | WEBM script headine in further readings |
