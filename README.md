@@ -54,4 +54,12 @@
 | ||| pn | Yes | Yes | script | WEBM "Portnumbers" -> "Port_Numbers" |
 | ||| swafp | Yes | Yes | script | WEBM "slidingwindow" -> "Sliding Window and Flow Control" |
 | ||| SFH | Yes | Yes | video, script, next | |
+| || DNS || Yes | No | no template | |
+| ||| TS | Yes | No | script, previous | WEBM |
+| ||| T | Yes | No | script | WEBM |
+| ||| Z | Yes | No | script | WEBM |
+| ||| RsfaDNS | Yes | No | script | WEBM |
+| ||| DDNSQ | Yes | No | script | WEBM |
+| ||| DNSAR | Yes | No | script | WEBM "DNS address resolution" -> "DNS Address Resolution" |
+| ||| SFH | Yes | No | script, next | WEBM |
 | | Web Architecture ||| Yes | No | no template | **no children** |
