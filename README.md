@@ -13,7 +13,7 @@
 **notes**:
 * **template not moved yet**
 * **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
-* **discussion menu is not working with {{talkpagename}}**
+* **discussion menu is not working with {{talkpagename}}** (fix: use {{talkpagenamee}} instead)
 * add script help text is wrong
 * template is not aware of unset parameters
 * no info text for missing video
