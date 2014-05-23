@@ -19,5 +19,7 @@ Video and learning goals would be simply transcluded to minify LUA usage.
     lunits[2] = "secondUnit"
     renderLesson(title, lunits)
 
-We are not allowed to execute code outside of a module. We are not able to store a variable in the module within a page request, every call creates a new module instance. Either we manage to pass arrays/objects to the module request or we would need to store the state in a persistent store.
+We are not allowed to execute code outside of a module. We are not able to store a variable in the module within a page request, every call creates a new module instance.
 
+We could pass the unit **names in CSV** style.  
+A more complex format to pass whole objects is also possible, but we do not need this for lessons yet.
