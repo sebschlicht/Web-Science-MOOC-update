@@ -93,7 +93,7 @@ It also implies script is moved for lesson "Web Content" and later.
 | ||| Working with XML | Yes | Yes | furtherReading | WEBM video has 640px parameter; furtherReading in /Script |
 | ||| HTML for Web document structures | Yes | Yes | | WEBM; -> "HTML for Web Document Structures" |
 | ||| Layout Elements in HTML | Yes | Yes | furtherReading | WEBM |
-| ||| Motivating Separation of Content and Layout | Yes | No | | |
+| ||| Motivating Separation of Content and Layout | Yes | Yes | quiz, furtherReading | WEBM empty Quiz @ /Quiz |
 | ||| Lesson on Cascading Stylesheets (CSS) | Yes | No | | -> "Cascading Stylesheets (CSS)" |
 | ||| Media Content | Yes | No | | |
 | ||| Metadata | Yes | No | | |
