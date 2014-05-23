@@ -1,6 +1,11 @@
 # Learning Unit
 
-This page describes the general content of a MOOC learning unit.
+A Learning Unit has learning goals.  
+It can have a video explaining the content that is to be teached.  
+It can have one or more scripts providing material necessary. (-> user generated?)  
+It can have a quiz to enable users to test theirselves.  
+It can have further reading to teach yourself beyond the boundary of the learning unit.  
+It has a discussion page to ask questions. (-> separate page? talk page is rather for Wikiversity internal communication concerning page status than for questions of understanding)
 
 ## Video
 
@@ -28,6 +33,6 @@ no link can be provided: is template parameter (neither page nor section)
 ## Discussion
 
 URL: {{TALKPAGENAME}} / {{TALKNAMESPACE}}:learningUnit  
-does not need to included anywhere else  
+does not need to be included anywhere else  
 menu to ask a new question / reply to a specific question (may be possible by rendering page with LUA)
 
