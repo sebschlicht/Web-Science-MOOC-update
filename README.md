@@ -13,7 +13,6 @@
 **notes**:
 * **template not moved yet**
 * **Quiz transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-quizzes => no fix, see below)
-* ** Script transclusion fixed, see below**
 * **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
 * add script help text is wrong
 * navigation is not aware of unset parameters
@@ -34,7 +33,9 @@
 # Fixes
 
 ## Learning Unit (depreceated: lesson)
-* script transclusion fixed with LUA ``if (script.startsWith('Web_Science')) transclude(script) else print(script)``
+* script transclusion fixed with LUA
+  
+  pseudocode: ``if (script.startsWith('Web_Science')) transclude(script) else print(script)``
 
 # Moved sites
 **All URLs corrected** implies quiz is moved.
