@@ -13,6 +13,7 @@
 **notes**:
 * **template not moved yet**
 * **Quiz transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-quizzes => no fix, see below)
+* ** Script transclusion fails due to missing namespace** (fix: fix: template has to be changed -> affects Topic:-pages => fix after move completed)
 * **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
 * add script help text is wrong
 * navigation is not aware of unset parameters
@@ -32,6 +33,7 @@
 
 # Moved sites
 **All URLs corrected** implies quiz is moved.
+It also implies script is moved for lesson "Web Content" and later.
 
 | Part | Block | Lesson | Learning Unit | Moved | All URLs corrected | missing parameters | notes |
 | :--: | :---: | :----: | :-----------: | :---: | :----------------: | :----------------: | :---: |
@@ -72,9 +74,9 @@
 | ||| Cn | Yes | Yes | | WEBM |
 | ||| SFH | Yes | Yes | script, next | WEBM script headine in further readings |
 | || Web Content || Yes | No | | resources navigation column is introduced here |
-| ||| Problem Setting for Web Content Formats | Yes | No | | |
-| ||| Working with XML | Yes | No | | |
-| ||| HTML for Web document structures | Yes | No | | -> "HTML for Web Document Structures" |
+| ||| Problem Setting for Web Content Formats | Yes | Yes | previous, furtherReading | WEBM script transclusion from /Script is introduced here |
+| ||| Working with XML | Yes | Yes | furtherReading | WEBM video has 640px parameter; furtherReading in /Script |
+| ||| HTML for Web document structures | Yes | Yes | | WEBM; -> "HTML for Web Document Structures" |
 | ||| Layout Elements in HTML | Yes | No | | |
 | ||| Motivating Separation of Content and Layout | Yes | No | | |
 | ||| Lesson on Cascading Stylesheets (CSS) | Yes | No | | -> "Cascading Stylesheets (CSS)" |
