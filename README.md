@@ -37,6 +37,12 @@
   
   pseudocode: ``if (script.startsWith('Web_Science')) transclude(script) else print(script)``
 
+# Todo
+after all MOOC items are moved:
+* move templates (?)
+* rebuild templates
+* use new template URLs in MOOC items
+
 # Moved sites
 **All URLs corrected** implies quiz is moved.
 It also implies script is moved for lesson "Web Content" and later.
