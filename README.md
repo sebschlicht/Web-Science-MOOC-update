@@ -42,6 +42,7 @@
 
 # Todo
 after all MOOC items are moved:
+* short look at Module:Lesson
 * move templates (?)
 * rebuild templates
 * use new template URLs in MOOC items
@@ -88,7 +89,7 @@ It also implies script is moved for lesson "Web Content" and later.
 | ||| THTTPH | Yes | Yes | script | WEBM |
 | ||| Cn | Yes | Yes | | WEBM |
 | ||| SFH | Yes | Yes | script, next | WEBM script headine in further readings |
-| || Web Content || Yes | Yes | | resources navigation column is introduced here; wget script; /Markup_Languages (unmoved) |
+| || Web Content || Yes | Yes | no template | resources navigation column is introduced here; wget script; /Markup_Languages (unmoved) |
 | ||| Problem Setting for Web Content Formats | Yes | Yes | previous, furtherReading | WEBM script transclusion from /Script is introduced here |
 | ||| Working with XML | Yes | Yes | furtherReading | WEBM video has 640px parameter; furtherReading in /Script |
 | ||| HTML for Web Document Structures | Yes | Yes | | WEBM mv "HTML for Web document structures" |
@@ -98,3 +99,9 @@ It also implies script is moved for lesson "Web Content" and later.
 | ||| Media Content | Yes | Yes | quiz | WEBM empty quiz @ /Quiz |
 | ||| Metadata | Yes | Yes | quiz, furtherReading | WEBM |
 | ||| SFrH | Yes | Yes | video, script, next | |
+| || Dynamic Web Content || Yes | Yes | no template | |
+| ||| Basics of server side web programming | Yes | No | | |
+| ||| Forms and HTTP Post Request| Yes | No | | mv "Forms and HTTP Post request" |
+| ||| Handling a Post Request in a Java Servlet | Yes | No | | |
+| ||| Client side JavaScript | Yes | No | | mv "Client side Javascript" |
+| ||| Ajax and the XMLHttpRequest Class | Yes | No | | |
