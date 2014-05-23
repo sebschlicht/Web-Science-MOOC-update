@@ -13,6 +13,7 @@
 **notes**:
 * **template not moved yet**
 * **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
+* **discussion menu is not working with {{talkpagename}}**
 * add script help text is wrong
 * template is not aware of unset parameters
 * no info text for missing video
@@ -43,6 +44,8 @@
 # Todo
 after all MOOC items are moved:
 * short look at Module:Lesson
+* test transclusion behaviour of {{talkpagename}}
+* create transclusion diagram
 * move templates (?)
 * rebuild templates
 * use new template URLs in MOOC items
@@ -100,8 +103,9 @@ It also implies script is moved for lesson "Web Content" and later.
 | ||| Metadata | Yes | Yes | quiz, furtherReading | WEBM |
 | ||| SFrH | Yes | Yes | video, script, next | |
 | || Dynamic Web Content || Yes | Yes | no template | |
-| ||| Basics of server side web programming | Yes | No | | |
-| ||| Forms and HTTP Post Request| Yes | No | | mv "Forms and HTTP Post request" |
-| ||| Handling a Post Request in a Java Servlet | Yes | No | | |
-| ||| Client side JavaScript | Yes | No | | mv "Client side Javascript" |
-| ||| Ajax and the XMLHttpRequest Class | Yes | No | | |
+| ||| Basics of server side web programming | Yes | Yes | previous | WEBM {{talkpagename}} /Quiz {{/Script}} are introduced here |
+| ||| Forms and HTTP Post Request| Yes | Yes | furtherReading | WEBM mv "Forms and HTTP Post request" title diff |
+| ||| Handling a Post Request in a Java Servlet | Yes | Yes | furtherReading | WEBM |
+| ||| Client side JavaScript | Yes | Yes | furtherReading | WEBM mv "Client side Javascript" |
+| ||| Ajax and the XMLHttpRequest Class | Yes | Yes | | WEBM |
+| ||| SFrH | Yes | Yes | next, script, quiz, furtherReading | WEBM **wrong video** |
