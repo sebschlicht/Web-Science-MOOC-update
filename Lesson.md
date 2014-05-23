@@ -19,4 +19,5 @@ Video and learning goals would be simply transcluded to minify LUA usage.
     lunits[2] = "secondUnit"
     renderLesson(title, lunits)
 
-If we are not allowed to execute code like this, we should try out if a module can keep a state within one page request or if the module looses it every time it gets called.
+We are not allowed to execute code outside of a module. We are not able to store a variable in the module within a page request, every call creates a new module instance. Either we manage to pass arrays/objects to the module request or we would need to store the state in a persistent store.
+
