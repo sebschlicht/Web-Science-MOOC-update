@@ -12,7 +12,6 @@
 
 **notes**:
 * **template not moved yet**
-* **Quiz transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-quizzes => no fix, see below)
 * **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
 * add script help text is wrong
 * navigation is not aware of unset parameters
@@ -35,7 +34,11 @@
 ## Learning Unit (depreceated: lesson)
 * script transclusion fixed with LUA
   
-  pseudocode: ``if (script.startsWith('Web_Science')) transclude(script) else print(script)``
+  pseudocode: ``if (script.startsWith('Web_Science')) transclude(:script) else print(script)``
+
+* quiz transclusion fixed with LUA
+
+  pseudocode: ``if (quiz.startsWith('Web_Science')) transclude(:quiz) else transclude(quiz)``
 
 # Todo
 after all MOOC items are moved:
@@ -89,7 +92,7 @@ It also implies script is moved for lesson "Web Content" and later.
 | ||| Problem Setting for Web Content Formats | Yes | Yes | previous, furtherReading | WEBM script transclusion from /Script is introduced here |
 | ||| Working with XML | Yes | Yes | furtherReading | WEBM video has 640px parameter; furtherReading in /Script |
 | ||| HTML for Web document structures | Yes | Yes | | WEBM; -> "HTML for Web Document Structures" |
-| ||| Layout Elements in HTML | Yes | No | | |
+| ||| Layout Elements in HTML | Yes | Yes | furtherReading | WEBM |
 | ||| Motivating Separation of Content and Layout | Yes | No | | |
 | ||| Lesson on Cascading Stylesheets (CSS) | Yes | No | | -> "Cascading Stylesheets (CSS)" |
 | ||| Media Content | Yes | No | | |
