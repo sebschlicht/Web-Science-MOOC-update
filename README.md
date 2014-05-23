@@ -71,3 +71,13 @@
 | ||| THTTPH | Yes | Yes | script | WEBM |
 | ||| Cn | Yes | Yes | | WEBM |
 | ||| SFH | Yes | Yes | script, next | WEBM script headine in further readings |
+| || Web Content || Yes | No | | resources navigation column is introduced here |
+| ||| Problem Setting for Web Content Formats | Yes | No | | |
+| ||| Working with XML | Yes | No | | |
+| ||| HTML for Web document structures | Yes | No | | -> "HTML for Web Document Structures" |
+| ||| Layout Elements in HTML | Yes | No | | |
+| ||| Motivating Separation of Content and Layout | Yes | No | | |
+| ||| Lesson on Cascading Stylesheets (CSS) | Yes | No | | -> "Cascading Stylesheets (CSS)" |
+| ||| Media Content | Yes | No | | |
+| ||| Metadata | Yes | No | | |
+| ||| SFrH | Yes | No | | |
