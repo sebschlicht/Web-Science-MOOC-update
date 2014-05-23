@@ -17,6 +17,10 @@ Just a thought: If this gets harder than expected an external software would sol
 The Index has to know the title of each MOOC item in order to name it.
 This title will be the URL - if not set manually.
 
-### Item
-* title: String
-* url: (opt) relative URL if not equal to ``wikiurl(title)``
+#### Learning Unit
+
+In addition to a general MOOC item learning units have learning goals.
+At the moment these are only existing and shown in the lesson table.
+We could easily move them to the learning unit and transclude them. We could also use a sub page just like for scripts and quizzes.
+Both ways enable us to show them in the learning unit, too.
+
