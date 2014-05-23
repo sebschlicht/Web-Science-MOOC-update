@@ -14,7 +14,7 @@
 * **template not moved yet**
 * **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
 * add script help text is wrong
-* navigation is not aware of unset parameters
+* template is not aware of unset parameters
 * no info text for missing video
 * Talk: and /Quiz can be appended to a parameter pointing to template-using page automatically
 * LUA: relative URLs? (relative to context=template-using page, such as /Quiz)
@@ -68,8 +68,8 @@ It also implies script is moved for lesson "Web Content" and later.
 | || TCP || Yes | Yes | no template | |
 | ||| EtEPaCoC | Yes | Yes | script, previous | WEBM |
 | ||| 3wh | Yes | Yes | script | WEBM |
-| ||| pn | Yes | Yes | script | WEBM "Portnumbers" -> "Port_Numbers" |
-| ||| swafp | Yes | Yes | script | WEBM "slidingwindow" -> "Sliding Window and Flow Control" |
+| ||| Port Numbers | Yes | Yes | script | WEBM mv "Portnumbers" |
+| ||| Sliding Windows and Flow Control | Yes | Yes | script | WEBM mv "slidingwindow" |
 | ||| SFH | Yes | Yes | video, script, next | |
 | || DNS || Yes | Yes | no template | |
 | ||| TS | Yes | Yes | script, previous | WEBM |
@@ -77,24 +77,24 @@ It also implies script is moved for lesson "Web Content" and later.
 | ||| Z | Yes | Yes | script | WEBM |
 | ||| RsfaDNS | Yes | Yes | script | WEBM |
 | ||| DDNSQ | Yes | Yes | script | WEBM |
-| ||| DNSAR | Yes | Yes | script | WEBM "DNS address resolution" -> "DNS Address Resolution" |
+| ||| DNSAR | Yes | Yes | script | WEBM mv "DNS address resolution" |
 | ||| SFH | Yes | Yes | script, quiz, next | WEBM, /table |
 | | Internet vs. world wide web ||| Yes | No | no template | |
 | | Web Architecture ||| Yes | No | no template | |
-| || Hypertext Transfer Protocol || Yes | Yes | | "Hypertext transfer protocol" -> "Hypertext Transfer Protocol" |
+| || Hypertext Transfer Protocol || Yes | Yes | | mv "Hypertext transfer protocol" |
 | ||| MHTTPr | Yes | Yes | previous | WEBM |
 | ||| ASWC | Yes | Yes | | WEBM title diff |
 | ||| ASWS | Yes | Yes | quiz | WEBM empty quiz @ [...]Simiple[...]/Quiz; large script |
 | ||| THTTPH | Yes | Yes | script | WEBM |
 | ||| Cn | Yes | Yes | | WEBM |
 | ||| SFH | Yes | Yes | script, next | WEBM script headine in further readings |
-| || Web Content || Yes | No | | resources navigation column is introduced here |
+| || Web Content || Yes | Yes | | resources navigation column is introduced here; wget script; /Markup_Languages (unmoved) |
 | ||| Problem Setting for Web Content Formats | Yes | Yes | previous, furtherReading | WEBM script transclusion from /Script is introduced here |
 | ||| Working with XML | Yes | Yes | furtherReading | WEBM video has 640px parameter; furtherReading in /Script |
-| ||| HTML for Web document structures | Yes | Yes | | WEBM; -> "HTML for Web Document Structures" |
+| ||| HTML for Web Document Structures | Yes | Yes | | WEBM mv "HTML for Web document structures" |
 | ||| Layout Elements in HTML | Yes | Yes | furtherReading | WEBM |
-| ||| Motivating Separation of Content and Layout | Yes | Yes | quiz, furtherReading | WEBM empty Quiz @ /Quiz |
-| ||| Lesson on Cascading Stylesheets (CSS) | Yes | No | | -> "Cascading Stylesheets (CSS)" |
-| ||| Media Content | Yes | No | | |
-| ||| Metadata | Yes | No | | |
-| ||| SFrH | Yes | No | | |
+| ||| Motivating Separation of Content and Layout | Yes | Yes | quiz, furtherReading | WEBM empty quiz @ /Quiz |
+| ||| Cascading Stylesheets (CSS) | Yes | Yes | furtherReading | WEBM mv "Lesson on Cascading Stylesheets (CSS)" |
+| ||| Media Content | Yes | Yes | quiz | WEBM empty quiz @ /Quiz |
+| ||| Metadata | Yes | Yes | quiz, furtherReading | WEBM |
+| ||| SFrH | Yes | Yes | video, script, next | |
