@@ -66,8 +66,8 @@ It also implies script is moved for lesson "Web Content" and later.
 | Enrole | Yes | Yes | |
 | New here | Yes | Yes | |
 | Web Architecture and Web History | No | No | outdated; not moved |
-| All learning units talk | No | No | |
-| current learning units talk | No | No | |
+| All learning units talk | Yes | No | |
+| current learning units talk | Yes | Yes | |
 
 ## [Part] #1
 
