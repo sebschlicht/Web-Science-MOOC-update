@@ -58,14 +58,16 @@ It also implies script is moved for lesson "Web Content" and later.
 
 | Pages                       | Moved | Updated | notes |
 | :-------------------------: | :---: | :-----: | :---: |
-| __root__ | No | No | |
+| __root__ | Yes | Yes | |
 | Part1: Foundations of the web | Yes | Yes | still linking to outdated Web History not moved yet |
-| Part2: Emerging Web Properties | Yes | Yes | very large: aggregates 3 subpages |
-| Part3: Web & society | No | No | |
-| Flipped classroom | No | No | |
-| Enrole | No | No | |
-| New here | No | No | |
+| Part2: Emerging Web Properties | Yes | Yes | very large: aggregates 3 of 5 subpages |
+| Part3: Web & Society | Yes | Yes | mv "Part3: Web & society"; only page of the part |
+| Flipped Classroom | Yes | Yes | mv "Flipped classroom" |
+| Enrole | Yes | Yes | |
+| New here | Yes | Yes | |
 | Web Architecture and Web History | No | No | outdated; not moved |
+| All learning units talk | No | No | |
+| current learning units talk | No | No | |
 
 ## [Part] #1
 
@@ -174,7 +176,9 @@ It also implies script is moved for lesson "Web Content" and later.
 
 | Block                       | Moved | Updated | notes |
 | :-------------------------: | :---: | :-----: | :---: |
-| Ranking | Yes | Yes | |
-| Search Engine Ecosystem | Yes | Yes | |
 | Emerging Structure of the Web | Yes | Yes | |
+| Search Engine Ecosystem | Yes | Yes | |
+| Ranking | Yes | Yes | |
+| Collective Intelligence | Yes | Yes | mv "Collective intelligence" |
+| Online Communities | Yes | Yes | video only |
 
