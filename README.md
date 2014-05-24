@@ -11,9 +11,7 @@
 * next (URL)
 
 **notes**:
-* **template not moved yet**
-* **Parent transclusion fails due to missing namespace** (fix: template has to be changed -> affects Topic:-pages => fix after move completed)
-* **discussion menu is not working with {{talkpagename}}** (fix: use {{talkpagenamee}} instead)
+* **template not moved** yet
 * add script help text is wrong
 * template is not aware of unset parameters
 * no info text for missing video
@@ -25,7 +23,7 @@
 * custom block navigation
 
 ## Lesson (no template)
-* **category** not changed yet to have all in same category => fix after move completed
+* **category not changed** yet to have all in same category => fix after move completed
 * no lesson navigation
 * table with learning units (transcluded by learning units)
 * lesson video
@@ -41,10 +39,14 @@
 
   pseudocode: ``if (quiz.startsWith('Web_Science')) transclude(:quiz) else transclude(quiz)``
 
+* parent transclusion fixed with LUA
+
+  pseudocode: ``if (parent.startsWith('Web_Science')) transclude(:parent) else transclude(parent)``
+
 # Todo
 after all MOOC items are moved:
 * short look at Module:Lesson
-* test transclusion behaviour of {{talkpagename}}
+* test transclusion behaviour of {{talkpagenamee}}
 * create transclusion diagram
 * move templates (?)
 * rebuild templates
@@ -109,3 +111,4 @@ It also implies script is moved for lesson "Web Content" and later.
 | ||| Client side JavaScript | Yes | Yes | furtherReading | WEBM mv "Client side Javascript" |
 | ||| Ajax and the XMLHttpRequest Class | Yes | Yes | | WEBM |
 | ||| SFrH | Yes | Yes | next, script, quiz, furtherReading | WEBM **wrong video** |
+
