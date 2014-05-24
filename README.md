@@ -60,7 +60,7 @@ It also implies script is moved for lesson "Web Content" and later.
 | :-------------------------: | :---: | :-----: | :---: |
 | __root__ | No | No | |
 | Part1: Foundations of the web | Yes | Yes | still linking to outdated Web History not moved yet |
-| Part2: Emerging Web Properties | No | No | |
+| Part2: Emerging Web Properties | Yes | Yes | very large: aggregates 3 subpages |
 | Part3: Web & society | No | No | |
 | Flipped classroom | No | No | |
 | Enrole | No | No | |
@@ -169,4 +169,12 @@ It also implies script is moved for lesson "Web Content" and later.
 | Client side JavaScript                    | Yes   | Yes     | furtherReading                     | WEBM; mv "Client side Javascript" |
 | Ajax and the XMLHttpRequest Class         | Yes   | Yes     |                                    | WEBM |
 | SFrH                                      | Yes   | Yes     | next, script, quiz, furtherReading | WEBM; **wrong video** |
+
+## [Part] #2
+
+| Block                       | Moved | Updated | notes |
+| :-------------------------: | :---: | :-----: | :---: |
+| Ranking | Yes | Yes | |
+| Search Engine Ecosystem | Yes | Yes | |
+| Emerging Structure of the Web | Yes | Yes | |
 
