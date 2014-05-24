@@ -59,12 +59,13 @@ It also implies script is moved for lesson "Web Content" and later.
 | Pages                       | Moved | Updated | notes |
 | :-------------------------: | :---: | :-----: | :---: |
 | __root__ | No | No | |
-| Part1: Foundations of the web | No | No | |
+| Part1: Foundations of the web | Yes | Yes | still linking to outdated Web History not moved yet |
 | Part2: Emerging Web Properties | No | No | |
 | Part3: Web & society | No | No | |
 | Flipped classroom | No | No | |
 | Enrole | No | No | |
-| New_here | No | No | |
+| New here | No | No | |
+| Web Architecture and Web History | No | No | outdated; not moved |
 
 ## [Part] #1
 
@@ -72,7 +73,7 @@ It also implies script is moved for lesson "Web Content" and later.
 | :-------------------------: | :---: | :-----: | :---: |
 | Internet Architecture       | Yes   | Yes     | |
 | Internet vs. world wide web | Yes   | No      | |
-| Web Architecture            | Yes   | No      | |
+| Web Architecture            | Yes   | Yes     | no block navigation |
 
 ### [Block] Internet Architecture
 
