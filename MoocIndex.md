@@ -11,7 +11,8 @@ The syntax is still in development and it is not clear what information has to b
 
 Since an item in the MOOC can have one of the following types its type hast to be provided together with the page title at least.
 
-**item types**:
+## Item types
+
 | Type          | Identifier   | Short identifier |
 | :-----------: | :----------: | :--------------: |
 | lesson        | lesson       | l |
