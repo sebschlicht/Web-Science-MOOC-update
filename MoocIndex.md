@@ -1,24 +1,63 @@
 # MOOC Index
 
-One essential question is how abstract our framework will be.
-
 On Wikiversity each page must exist in order to be browsed.
 There is no way of capturing sub page requests pointing to a page not existing yet.
 Thus a central index that is aware of the MOOC and its content is not sufficient: We have to create pages.
 
-We could generate the code that has to be copied into the page for a new MOOC item or
-we might use the PHP API - unknown to me so far - to create this page with the generated code.
-This must be done whenever the index changes in order to keep all pages up to date.  
-(If this gets harder than expected an external software would solve this issue easily.)
+These pages point to one MOOC item each, that gets rendered.
 
-## Index content
+The MOOC Index is a central page holding the structure of the MOOC and some meta information.
+The syntax is still in development and it is not clear what information has to be provided yet.
 
-The Index has to know the title of each MOOC item in order to name it.
-This title will be the URL - if not set manually.
+Since an item in the MOOC can have one of the following types its type hast to be provided together with the page title at least.
 
-#### Learning Goals (Learning Unit)
+**item types**:
+| Type          | Identifier   | Short identifier |
+| :-----------: | :----------: | :--------------: |
+| lesson        | lesson       | l |
+| learning unit | learningUnit | u |
 
-At the moment these are only existing and shown in the parental table.
-We could easily move them to the learning unit and transclude them. We could also use a sub page just like for scripts and quizzes.
-Both ways enable us to show them in the learning unit, too.
+There will be a bot one can trigger for a MOOC that will create a page for each MOOC item the index contains.
+
+## Syntax
+
+The index syntax will use Wikitext to make the index page readable.
+A MOOC item looks like this:
+
+    =lesson|Testy=
+
+To increase the level and specify subpages act like in Wikitext - increase the number of `=`:
+
+    =lesson|Testy=
+    ==u|Unit1==
+    ==learningUnit|Unit2==
+    ==u|Unit3==
+
+If there are additional parameters for an item you can provide them using a single line
+
+    =lesson|Testy=
+    *parameter=value
+
+or multiple lines - recommended for muti-line values that use Wikitext syntax itself:
+
+    =lesson|Testy=
+    *parameter
+    multiLineValue
+
+An example is [LearningGoals](#LearningGoals).
+
+ 
+Please note that each additional line of a value **must not** start with `*`, no matter which one of the two methods you use.
+
+## Content
+
+#### Learning Goals
+
+Learning goals of the MOOC item can be set using the `learningGoals` parameter.
+Separate single learning goals using `#`:
+
+    =lesson|Testy=
+    *learningGoals
+    #goal1
+    #goal2
 
